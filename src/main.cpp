@@ -119,6 +119,10 @@ int main(){
     InitWindow(screen_width, screen_height, "Pong");
     SetTargetFPS(60);
 
+    Image windowIcon = LoadImage("ping-pong.png");
+    SetWindowIcon(windowIcon);
+    UnloadImage(windowIcon);
+
     ball.radius = 20;
     ball.x = screen_width / 2;
     ball.y = screen_height / 2;
