@@ -132,7 +132,7 @@ int main(){
     
     SetTargetFPS(60);
 
-    Image windowIcon = LoadImage("Assets/ping-pong.exe");
+    Image windowIcon = LoadImage("Assets/ping-pong.png");
     SetWindowIcon(windowIcon);
     UnloadImage(windowIcon);
 
